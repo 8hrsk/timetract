@@ -1,7 +1,10 @@
 .task-name-input {
-    color: gray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .task-name-input::placeholder {
-    color: lightgray;
+    color: rgb(156, 156, 156);
+    font-size: large;
 }

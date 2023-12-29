@@ -1,5 +1,7 @@
 import './Header.css';
 import TaskNameInput from "./TaskNameInput/TaskNameInput";
+import Timer from "../Timer/Timer";
+import TimerButton from '../TimerButton/TimerButton';
 
 function Header() {
     return (
@@ -9,7 +11,8 @@ function Header() {
                     <TaskNameInput />
                 </li>
                 <li>
-                    
+                    <Timer />
+                    <TimerButton />
                 </li>
             </ul>
         </header>
