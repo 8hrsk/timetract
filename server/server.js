@@ -2,10 +2,14 @@ const path = require('path');
 const fs = require('fs');
 const express = require('express');
 const app = express();
+const dotenv = require('dotenv');
+
+dotenv.config();
+
+const { PORT } = process.env;
 
 const rootDir = path.resolve(__dirname, '../');
 
-const PORT = 3005;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(rootDir + '/build'));
