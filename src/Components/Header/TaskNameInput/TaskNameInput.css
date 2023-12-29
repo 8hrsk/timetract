@@ -1,0 +1,7 @@
+.task-name-input {
+    color: gray;
+}
+
+.task-name-input::placeholder {
+    color: lightgray;
+}
