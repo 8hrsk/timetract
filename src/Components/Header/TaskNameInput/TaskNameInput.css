@@ -8,3 +8,8 @@
     color: rgb(156, 156, 156);
     font-size: large;
 }
+
+.task-name-input:focus {
+    outline: none;
+    border: 1px solid gray;
+}

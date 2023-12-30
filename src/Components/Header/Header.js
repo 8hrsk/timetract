@@ -4,6 +4,10 @@ import Timer from "../Timer/Timer";
 import TimerButton from '../TimerButton/TimerButton';
 
 function Header() {
+    const timerAction = () => {
+
+    }
+
     return (
         <header>
             <ul>
@@ -12,7 +16,7 @@ function Header() {
                 </li>
                 <li>
                     <Timer />
-                    <TimerButton />
+                    <TimerButton onClick={timerAction} />
                 </li>
             </ul>
         </header>
